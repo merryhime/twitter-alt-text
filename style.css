@@ -9,6 +9,7 @@ div[data-testid="tweetPhoto"]:not(:hover):not([aria-label="Image"]):after {
     font-family: -apple-system;
     padding: 25px;
     white-space: pre-wrap;
+    position: absolute;
 }
 div[data-testid="tweetPhoto"][aria-label="Image"]:not(:hover):after {
     content: "No alt text";
@@ -17,4 +18,5 @@ div[data-testid="tweetPhoto"][aria-label="Image"]:not(:hover):after {
     font-family: -apple-system;
     padding: 25px;
     white-space: pre-wrap;
+    position: absolute;
 }
